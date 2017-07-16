@@ -31,5 +31,5 @@ def get_tag(fin, tag):
 if __name__ == "__main__":
     path = "E:\\pythonproj\\"
     fin = path + "news_tensite_xml.dat"
-    tag = "contenttitle"
+    tag = "content"
     get_tag(fin, tag)
